@@ -3,8 +3,8 @@
 #include <string>
 int main(int argc, char** argv) {
 	if (argc < 3) {
-		std::cout << "Íåäîñòàòî÷íî àðãóìåíòîâ!\n" <<
-			"Ââåäèòå X è N\n";
+		std::cout << "ÐÐµÐ´Ð¾ÑÑ‚Ð°Ñ‚Ð¾Ñ‡Ð½Ð¾ Ð°Ñ€Ð³ÑƒÐ¼ÐµÐ½Ñ‚Ð¾Ð²!\n" <<
+			"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ X Ð¸ N\n";
 	} 
 	
 	double x = atof(argv[1]);
@@ -21,5 +21,5 @@ int main(int argc, char** argv) {
 		elem *= -1;
 		sin += elem;
 	}
-	std::cout << "Îòâåò: " << sin;
+	std::cout << "ÃŽÃ²Ã¢Ã¥Ã²: " << sin;
 }
